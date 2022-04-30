@@ -6,7 +6,7 @@
 /*   By: Atsushi <Atsushi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/10 16:31:59 by aueda             #+#    #+#             */
-/*   Updated: 2022/04/30 09:03:38 by Atsushi          ###   ########.fr       */
+/*   Updated: 2022/04/30 09:36:29 by Atsushi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,7 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
-void    ft_putptr_fd(uintptr_t ptr, int fd);
+void	ft_putptr_fd(uintptr_t ptr, int fd);
 void	ft_putuint_fd(unsigned int n, int fd);
 void	ft_puthex_fd(unsigned int n, int fd, char c);
 int		ft_printf(const char *format, ...);
